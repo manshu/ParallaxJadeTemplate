@@ -1,0 +1,73 @@
+doctype html
+html
+    head
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='css/materialize.css')
+        link(rel='stylesheet', href='css/style.css')
+        body
+            nav.white(role='navigation')
+                .nav-wrapper.container
+                    a#logo-container.brand-logo.hide-on-med-and-down(href='#') TechSol
+                    ul.right
+                                li
+                                    a(href='#') Home
+                                li
+                                    a(href='#first') About
+                                li
+                                    a(href='#second') Services
+                                li
+                                    a(href='#third') Solutions
+                                li
+                                    a(href='#fourth') Contact
+                div(id='index-banner').parallax-container
+                .section.no-pad-bot
+                    .container
+                            h1.header.center.teal-text.text-lighten-2 Tech Solution
+                            .row.center
+                            h5.header.col.s12.teal-text A modern responsive front-end framework based on Material Design
+                            .row.center
+                                a#download-button.btn-large.waves-effect.waves-light.teal.lighten-1(href='#') Read More
+                    .parallax
+                    img(src='img/background1.jpg', alt='Unsplashed background img 2')
+
+            .container
+                .section#first
+                    .row
+                        .col.s12.m4
+                            .icon-block
+                            h2.center.brown-text
+                                i.mdi-image-nature-people
+                            h5.center Speeds Up Development
+                            p.light We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.
+
+                        .col.s12.m4
+                            .icon-block
+                                h2.center.brown-text
+                                    i.mdi-social-group
+                                    h5.center User Experience Focused
+                                    p.light By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying.
+                        .col.s12.m4
+                            .icon-block
+                                h2.center.brown-text
+                                    i.mdi-action-settings
+                                    h5.center Easy to work with
+                                    p.light We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
+
+
+            footer.page-footer.teal
+                .container
+                    .row
+                        .col.l6.s12
+                            h5.white-text Company Info
+                            p.grey-text.text-lighten-4  We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.
+                        .col.l3.s12
+                            h5.white-text   Settings
+                            ul
+                                li
+                                    a.white-text(href='#') Link 1
+                                li
+                                    a.white-text(href='#') Link 2
+
+        script(type='text/javascript', src="node_modules/jquery/dist/jquery.js")
+        script(type='text/javascript', src="js/materialize.js")
+        script(type='text/javascript', src="js/init.js")
